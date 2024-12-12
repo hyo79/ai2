@@ -22,7 +22,7 @@ def load_model_from_drive(file_id):
 def display_left_content(image, prediction, probs, labels):
     st.write("### 당신의 취향은??")
     if image is not None:
-        st.image(image, caption="당신의 최애 웹툰", use_column_width=True)
+        st.image(image, caption="당신의 최애 웹툰", use_container_width=True)
     st.write(f"아마도 이 표지는: {prediction}")
     st.markdown("<h4>클래스별 확률:</h4>", unsafe_allow_html=True)
     for label, prob in zip(labels, probs):
@@ -43,7 +43,7 @@ def display_right_content(prediction, data):
     # 1st Row - Images
     for i in range(3):
         with cols[i]:
-            st.image(data['images'][i], caption=f"이미지: {prediction}", use_column_width=True)
+            st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
     # 2nd Row - YouTube Videos
     for i in range(3):
         with cols[i]:
