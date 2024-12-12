@@ -105,16 +105,16 @@ content_data = {
             "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
         ],
         'texts': [
-            "비글은 흔히 지랄견이라고 하지용.",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "오싹오싹 스릴러 덕후!!",
+            "당신의 취향을 저격할",
+            "영상입니다 (심장주의)"
         ]
     },
     labels[2]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1",
-            "https://via.placeholder.com/300?text=Label3_Image2",
-            "https://via.placeholder.com/300?text=Label3_Image3"
+            "https://i.ibb.co/sC1B4rF/s1.png",
+            "https://i.ibb.co/yWbnTsf/s2.webp",
+            "https://i.ibb.co/kHjKfrw/s3.jpg"
         ],
         'videos': [
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
