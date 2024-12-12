@@ -20,10 +20,10 @@ def load_model_from_drive(file_id):
     return learner
 
 def display_left_content(image, prediction, probs, labels):
-    st.write("### 당신의 취향은")
+    st.write("### 당신의 취향은??")
     if image is not None:
-        st.image(image, caption="업로드된 이미지", use_column_width=True)
-    st.write(f"예측된 클래스: {prediction}")
+        st.image(image, caption="당신의 최애 웹툰", use_column_width=True)
+    st.write(f"아마도 이 표지는: {prediction}")
     st.markdown("<h4>클래스별 확률:</h4>", unsafe_allow_html=True)
     for label, prob in zip(labels, probs):
         st.markdown(f"""
@@ -79,8 +79,8 @@ content_data = {
     labels[0]: {
         'images': [
             "https://i.ibb.co/p0KgMYK/r1.jpg",
-            "https://via.placeholder.com/300?text=Label1_Image2",
-            "https://via.placeholder.com/300?text=Label1_Image3"
+            "https://i.ibb.co/jDYrQ3f/r2.jpg",
+            "https://i.ibb.co/LNNWVBM/r3.webp"
         ],
         'videos': [
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
