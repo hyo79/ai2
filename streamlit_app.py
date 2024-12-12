@@ -20,7 +20,7 @@ def load_model_from_drive(file_id):
     return learner
 
 def display_left_content(image, prediction, probs, labels):
-    st.write("### 왼쪽: 기존 출력 결과")
+    st.write("### 당신의 취향은")
     if image is not None:
         st.image(image, caption="업로드된 이미지", use_column_width=True)
     st.write(f"예측된 클래스: {prediction}")
@@ -37,7 +37,7 @@ def display_left_content(image, prediction, probs, labels):
         """, unsafe_allow_html=True)
 
 def display_right_content(prediction, data):
-    st.write("### 오른쪽: 동적 분류 결과")
+    st.write("### 비슷한 장르의 영상을 추천해드려요!")
     cols = st.columns(3)
 
     # 1st Row - Images
@@ -88,9 +88,9 @@ content_data = {
             "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
         ],
         'texts': [
-            "말티즈는 성격이 좋지 않습니다...",
-            "Label 1 관련 두 번째 텍스트 내용입니다.",
-            "Label 1 관련 세 번째 텍스트 내용입니다."
+            "두근두근 로맨스 광인!!",
+            "당신의 취향을 저격할",
+            "영상입니다"
         ]
     },
     labels[1]: {
