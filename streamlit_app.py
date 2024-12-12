@@ -83,9 +83,9 @@ content_data = {
             "https://i.ibb.co/LNNWVBM/r3.webp"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=n8GcBstSFD8",
+            "https://www.youtube.com/watch?v=Ceoe2wf-bbo",
+            "https://www.youtube.com/watch?v=5VPwCGe9S5c"
         ],
         'texts': [
             "두근두근 로맨스 광인!!",
