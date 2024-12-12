@@ -113,18 +113,18 @@ content_data = {
     labels[2]: {
         'images': [
             "https://i.ibb.co/sC1B4rF/s1.png",
-            "https://i.ibb.co/yWbnTsf/s2.webp",
-            "https://i.ibb.co/kHjKfrw/s3.jpg"
+            "https://i.ibb.co/ZN4BBWW/pan2.webp",
+            "https://i.ibb.co/VvkgThL/pan3.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
+            "https://www.youtube.com/watch?v=dlSkyNLOncY",
             "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://www.youtube.com/watch?v=-5Dc8EMVYBo"
         ],
         'texts': [
-            "푸들이 가장 귀엽죵",
-            "Label 3 관련 두 번째 텍스트 내용입니다.",
-            "Label 3 관련 세 번째 텍스트 내용입니다."
+            "꿈과 같은 경험을 선사하는 판타지!!",
+            "당신의 취향을 저격할",
+            "영상입니다"
         ]
     }
 }
