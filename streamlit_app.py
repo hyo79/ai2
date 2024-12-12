@@ -100,9 +100,9 @@ content_data = {
             "https://i.ibb.co/kHjKfrw/s3.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://www.youtube.com/watch?v=biPh95JF3no",
+            "https://www.youtube.com/watch?v=dji5vHuoVtM",
+            "https://www.youtube.com/watch?v=Jd-EXmSxV2A"
         ],
         'texts': [
             "오싹오싹 스릴러 덕후!!",
