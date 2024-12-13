@@ -1,3 +1,5 @@
+#분류 결과 + 이미지 + 텍스트와 함께 분류 결과에 따라 다른 출력 보여주기
+#파일 이름 streamlit_app.py
 import streamlit as st
 from fastai.vision.all import *
 from PIL import Image
@@ -8,6 +10,8 @@ file_id = '1hB__Hfh_J6xD-1RsbnorI3YPwN4u6Z-E'
 
 # Google Drive에서 파일 다운로드 함수
 @st.cache(allow_output_mutation=True)
+#st.cache_data
+
 def load_model_from_drive(file_id):
     url = f'https://drive.google.com/uc?id={file_id}'
     output = 'model.pkl'
@@ -42,21 +46,15 @@ def display_right_content(prediction, data):
     for i in range(3):
         with cols[i]:
             st.image(data['images'][i], caption=f"이미지: {prediction}", use_container_width=True)
-    
     # 2nd Row - YouTube Videos
     for i in range(3):
         with cols[i]:
-            st.markdown(f"""
-            <iframe width="560" height="315" src="{data['videos'][i]}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            """, unsafe_allow_html=True)
+            st.video(data['videos'][i])
             st.caption(f"유튜브: {prediction}")
-    
     # 3rd Row - Text
     for i in range(3):
         with cols[i]:
-            st.markdown(f"""
-            <p style="font-size: 14px;">{data['texts'][i]}</p>
-            """, unsafe_allow_html=True)
+            st.write(data['texts'][i])
 
 # 모델 로드
 st.write("모델을 로드 중입니다. 잠시만 기다려주세요...")
